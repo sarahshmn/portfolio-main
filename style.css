@@ -1,0 +1,335 @@
+.caveat {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  /* background: #F8F8F8; */
+  font-family: "Caveat";
+}
+
+.left-banner {
+  background: #95aeed;
+  position: relative;
+  height: 630px;
+}
+
+img.mine {
+  position: absolute;
+  width: 84%;
+  height: auto;
+  display: flex;
+  bottom: 0;
+  right: 0;
+}
+
+.col-8.menu {
+  /* position: absolute; */
+  z-index: 100;
+  background: white;
+  margin: 30px;
+  height: 50px;
+  text-align: center;
+  padding-top: 13px;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px #0000004a;
+}
+
+.row.main-menu {
+  position: absolute;
+  width: 100%;
+}
+
+img.icon {
+  display: inline;
+}
+
+ul.top-menu {
+  display: inline;
+}
+
+ul.top-menu li {
+  display: inline;
+  padding: 10px;
+}
+
+.col-8.menu {
+}
+
+ul.top-menu li a {
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.col-8.menu {
+  /* position: absolute; */
+  z-index: 100;
+  background: white;
+  margin: 30px;
+  height: 50px;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px #0000004a;
+  padding: 11px;
+}
+
+.row.main-menu {
+  position: absolute;
+  width: 100%;
+}
+
+img.icon {
+  display: inline-block;
+  width: 3%;
+  height: auto;
+  float: left;
+}
+
+ul.top-menu {
+  display: inline;
+}
+
+ul.top-menu li {
+  display: inline;
+  padding: 10px;
+}
+
+.col-8.menu {
+}
+
+ul.top-menu li a {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.col-8.right-banner {
+  margin-top: 10%;
+  /* width: 50%; */
+  /* margin-left: 3%; */
+  /* background: #F8F8F8; */
+  /* height: 450px; */
+}
+
+.right-banner h2 {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 36px 30% 0 0;
+  margin-left: 10%;
+}
+
+.right-banner h1 {
+  font-size: 80px;
+  color: #505e84;
+  margin-left: 10%;
+  padding-right: 30%;
+}
+
+.right-banner p {
+  font-size: 22px;
+  margin-left: 10%;
+}
+
+button.hire {
+  width: 136px;
+  height: 45px;
+  border-radius: 50px;
+  border: 0;
+  background: #95aeed;
+  color: white;
+  transition: 0.3s;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+
+.hire a {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 18px;
+}
+
+.hire a:hover {
+  color: #30343d;
+  transition: 0.3s;
+}
+
+.hire:hover {
+  box-shadow: 0 0 10px #9999;
+  transition: 0.3s;
+  background: #b2bff0;
+}
+.banner {
+  background: #f8f8f8;
+}
+
+.chart-one,
+.chart-two,
+.chart-three,
+.chart-four {
+  width: 270px;
+  height: 250px;
+  border-radius: 8px;
+  background: white;
+  position: relative;
+  overflow: hidden;
+  top: 86px;
+  display: inline-block;
+}
+
+.chart {
+  background: #f8f8f8;
+  display: inline-block;
+}
+
+.two-left {
+  display: inline-block;
+}
+
+.sec-two {
+  margin-top: 120px;
+}
+
+.chart-two {
+  top: 20px;
+  left: 23px;
+}
+
+.chart-four {
+  top: 38px;
+  left: 23px;
+  box-shadow: 0 37px 40px rgb(0 0 0 / 23%);
+}
+
+.chart-three {
+  top: 110px;
+  box-shadow: 0 37px 40px rgb(0 0 0 / 23%);
+}
+
+img.icons {
+  width: 50px;
+  padding: 10px;
+  background: #eee;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+p.tit-info {
+  margin: 6px 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p.more-info {
+  margin: 10px 15px;
+}
+
+.two-left span {
+  font-size: 46px;
+  color: hsl(0 5% 23% / 0.3);
+}
+
+.two-left h3 {
+  margin: 83px 26px 25px 0;
+  font-size: 50px;
+}
+
+.two-left p {
+  font-size: 19px;
+  color: #1f1d1d;
+  margin-bottom: 36px;
+}
+
+span {
+  font-size: 46px;
+  color: hsl(0 5% 23% / 0.3);
+}
+
+.two-left h3 {
+  margin: 83px 26px 25px 0;
+  font-size: 50px;
+}
+
+.two-left p {
+  font-size: 19px;
+  color: #1f1d1d;
+  margin-bottom: 36px;
+}
+
+button.more {
+  width: 136px;
+  height: 45px;
+  border-radius: 50px;
+  border: 0;
+  background: #95aeed;
+  color: white;
+  transition: 0.3s;
+  /* margin-top: 50px; */
+  /* margin-left: 10%; */
+}
+
+button.more a {
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s;
+  padding: 18px;
+}
+
+.more a:hover {
+  color: #30343d;
+  transition: 0.3s;
+}
+
+.more:hover {
+  box-shadow: 0 0 10px #9999;
+  transition: 0.3s;
+  background: #b2bff0;
+}
+
+.skills {
+  margin-top: 240px;
+}
+
+span.line {
+  height: 2px;
+  display: block;
+  width: 53px;
+  background: #95aeed;
+  border-radius: 15px;
+}
+
+.col-6.skill-part {
+  margin-top: 40px;
+}
+
+img.half {
+  width: 30px;
+  display: inline-block;
+}
+
+.skill-part p {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.percentage {
+  margin-top: 12px;
+}
+
+label {
+  display: block;
+  font-size: 19px;
+}
+
+progress {
+  accent-color: #6080d2;
+  width: 60%;
+}
