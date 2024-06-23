@@ -7,6 +7,7 @@
 body {
   /* background: #F8F8F8; */
   font-family: "Caveat";
+  overflow: hidden;
 }
 
 .left-banner {
@@ -476,4 +477,43 @@ p.fo-info {
 img.social {
   width: 30px;
   margin-right: 30px;
+}
+
+.scroll-top {
+    position: -webkit-sticky;
+    position: sticky;
+    /* display: inline; */
+    /* bottom: 4%; */
+    /* right: 103%; */
+    border: 1px solid blue;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    /* overflow: hidden; */
+    /* float: inline-end; */
+    /* margin-right: 40px; */
+    /* margin-bottom: 30px; */
+    bottom: 0;
+    right: 0;
+    float: inline-end;
+}
+
+.scroll-top a {
+    text-align: center;
+    width: 30px;
+    display: block;
+    position: sticky;
+    height: 30px;
+    bottom: 0;
+    right: 0;
+}
+
+.scroll-top span {
+    width: 30px;
+    display: block;
+    height: 30px;
+    position: sticky;
+    /* overflow: hidden; */
+    top: -16px;
+    left: -5px;
 }
