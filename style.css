@@ -7,7 +7,7 @@
 body {
   /* background: #F8F8F8; */
   font-family: "Caveat";
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .left-banner {
@@ -482,16 +482,24 @@ img.social {
 .scroll-top {
     position: -webkit-sticky;
     position: sticky;
+    /* display: inline; */
+    /* bottom: 4%; */
+    /* right: 103%; */
+    /* border: 1px solid blue; */
     width: 30px;
     height: 30px;
     text-align: center;
-    bottom: 10px;
+    /* overflow: hidden; */
+    /* float: inline-end; */
+    /* margin-right: 40px; */
+    /* margin-bottom: 30px; */
+    bottom: 0;
     right: 0;
     float: inline-end;
+    background: #95aeed;
+    border-radius: 50%;
     margin-right: 35px;
-    background: #6080d270;
-    border-radius: 50px;
-    overflow: hidden;
+    margin-bottom: 15px;
 }
 
 .scroll-top a {
@@ -501,9 +509,12 @@ img.social {
     position: sticky;
     height: 30px;
     bottom: 0;
-    overflow: hidden;
+    right: 0;
+    text-decoration: none;
+    font-size: 23px;
+    padding: 0 5px 6px 0;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .scroll-top span {
